@@ -2,7 +2,6 @@ const equipment = [
   {icon:"💧", name:"Eau / filtration", meta:"Réserve d'urgence", state:"OK", cls:""},
   {icon:"🩹", name:"Trousse de secours", meta:"Contrôle recommandé", state:"À vérifier", cls:"warn"},
   {icon:"🔦", name:"Lampe", meta:"Batterie chargée", state:"OK", cls:""},
-  {icon:"🔋", name:"Batterie externe", meta:"Niveau 18%", state:"Recharge", cls:"warn"},
   {icon:"🧣", name:"Couverture de survie", meta:"Présente", state:"OK", cls:""},
   {icon:"🥧", name:"Ration", meta:"Fonctionnelle", state:"OK", cls:""},
   {icon:"🛰️", name:"Balise de survie", meta:"Fonctionnelle", state:"OK", cls:""},
