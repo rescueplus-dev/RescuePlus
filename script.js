@@ -104,7 +104,7 @@ document.querySelectorAll(".risk-card").forEach(card=>{
 });
 
 document.getElementById("resetKit").addEventListener("click",()=>{
-  equipment.forEach((x,i)=>{x.state = i===1 ? "À vérifier" : i===3 ? "Recharge" : "OK"; x.cls = x.state==="OK"?"":"warn"});
+  equipment.forEach((x,i)=>{x.state =  "À vérifier" ; x.cls = x.state==="OK"?"":"warn"});
   renderKit(); showToast("Kit réinitialisé.");
 });
 document.getElementById("scanBtn").addEventListener("click",openModal);
